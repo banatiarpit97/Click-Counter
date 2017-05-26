@@ -1,0 +1,102 @@
+header div{
+	position: relative;
+	background-color: #E94535;
+	height: 70px;
+	display: flex;
+}
+
+header div h1{
+
+	font-weight: bolder;
+	margin: auto;
+}
+
+.background{
+	border-radius: 10px;
+	background-color: #3866F7;
+	height: 400px;
+	margin-top: 110px;
+	margin-left: -114px;
+	position: relative;
+	cursor: pointer;
+	cursor: hand;
+
+}
+
+
+
+.clickhere{
+	position:absolute;
+	top: 110px; 
+	left: 180px;
+	font-size: 5em;
+	opacity: .1;
+
+}
+
+.tostart{
+	position:absolute;
+	top: 170px; 
+	left: 220px;
+	font-size: 5em;
+	opacity: .1;
+
+}
+
+.restart{
+	position: absolute;
+	right: -90px;
+	margin-top: 160px;
+	width: 150px;
+}
+
+.instructions{
+	margin-top: 160px;
+	margin-left: 80px ;
+	width: 150px;
+}
+
+.clicks{
+	margin-top: 150px;
+	margin-left: 150px;
+}
+
+.count{
+	float: right;
+	margin-top: -50px;
+	position: absolute;
+	right: 5px;
+}
+
+.time_left{
+	margin-top: 60px;
+	margin-left: 50px;
+}
+
+.seconds{
+	float: right;
+	position: absolute;
+	right: -120px;
+	margin-top: -48px;
+
+}
+
+.modify{
+	position: absolute;
+	right: -120px;
+	margin-top: 0px;
+	color: blue;
+}
+
+.result{
+	font-size: 45px;
+	margin-left: 100px;
+	margin-right: -100px;
+	margin-top: 150px;
+}
+
+.boldAndUnder{
+	font-weight: bolder;
+	text-decoration: underline;
+	font-style: italic;
+}

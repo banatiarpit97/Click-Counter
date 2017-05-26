@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+     <link rel="shortcut icon" href="C:\Users\banat\Desktop\click counter\app\images\click.png" type="image/png">
+     <title>
+     Click Counter
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="app/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app/css/styles.css">
+    
+  </head>
+
+<body>
+
+<header>
+    <div>
+        <h1>CLICK COUNTER</h1>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-1 col-md-6">
+          <div class="background">
+            <h1 class="clickhere">click here</h1>
+            <h1 class="tostart">to start</h1>
+          </div>  
+        </div>
+
+        <div class="col-md-4">
+
+        <div class="after hidden">
+           <h1 class="result">YOU CLICKED <span class = "numInsert boldAndUnder"> </span> TIMES IN <span class="timeInsert boldAndUnder"> </span> &emsp; SECONDS</h1> 
+        </div>
+
+          <div class="previous">
+           <div>
+             <h1 class="clicks">CLICKS = </h1>
+             <h1 class="count"> 0 </h1>
+          </div>
+          <div>
+              <h1 class="time_left">TIME LEFT : </h1>
+              <h1 class="seconds"> 30 SECONDS</h1>
+              <a href="#"><h6 class="modify">modify timer?</h6></a> 
+          </div> 
+        </div>    
+          <input type="button" name="instructions" value="Instructions" class="instructions" 
+                 data-toggle = "popover" data-placement = "top" data-trigger = "click" data-title = "INSTRUCTIONS"
+                 data-content = "Click on the blue box to increse counter value by 1.Click as many times in the time">
+          <input type="button" name="restart" value="Restart" class="restart">            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="app/js/jquery-3.2.0.min.js"></script>
+  <script src="app/js/bootstrap.min.js"></script>
+  <script src="app/js/script.js"></script>
+</body>
+</html>
