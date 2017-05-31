@@ -1,5 +1,6 @@
 var clickCount = -1;
 var timeout;
+var time = 30;
 var timeCount = 30;
 var showTime;
 
@@ -84,10 +85,3 @@ $(function ()
 
 
 
-	
-
-
-
-
-
-// modified timer
