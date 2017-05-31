@@ -13,7 +13,7 @@ function counter(){
 			{
 				clearTimeout(timeout);
 				$(".numInsert").html(clickCount);
-				$(".timeInsert").html(timeCount);
+				$(".timeInsert").html(time);
 				$(".after").toggleClass('hidden');
 				$(".previous").addClass('hidden');
 			}
