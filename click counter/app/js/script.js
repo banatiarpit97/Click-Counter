@@ -1,6 +1,5 @@
 var clickCount = -1;
 var timeout;
-var time = 30;
 var timeCount = 30;
 var showTime;
 
@@ -14,7 +13,6 @@ function counter(){
 			{
 				clearTimeout(timeout);
 				$(".numInsert").html(clickCount);
-				$(".timeInsert").html(time);
 				$(".after").toggleClass('hidden');
 				$(".previous").addClass('hidden');
 			}
@@ -39,6 +37,7 @@ $(".restart").click(function(){
 	clickCount = -1;
 	$(".count").html("0");
 	timeCount = 30;
+	$(".timeInsert").html(timeCount);
 	$(".seconds").html("30 SECONDS");
 	clearTimeout(timeout);
     $(".clickhere").html(" CLICK HERE");
@@ -68,7 +67,7 @@ $(".modify").click(function(){
 	if(timeCount<=0 || (isNaN(timeCount))){
 		input_time();
 	}
-	$(".timeInsert").html(time);
+	$(".timeInsert").html(timeCount);
 	showTime = timeCount + " SECONDS";
 	$(".seconds").html(showTime);
 
@@ -85,3 +84,10 @@ $(function ()
 
 
 
+	
+
+
+
+
+
+// modified timer
