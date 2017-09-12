@@ -4,6 +4,7 @@ var timeCount = 30;
 var showTime;
 
 function counter(){
+	        $(".timeInsert").html(timeCount);
 		timeCount -=1;
 		showTime = timeCount + " SECONDS";
 		$(".seconds").html(showTime);
@@ -13,7 +14,7 @@ function counter(){
 			{
 				clearTimeout(timeout);
 				$(".numInsert").html(clickCount);
-				$(".timeInsert").html(timeCount);
+				
 				$(".after").toggleClass('hidden');
 				$(".previous").addClass('hidden');
 			}
