@@ -3,8 +3,9 @@ var timeout;
 var timeCount = 30;
 var showTime;
 
+$(".timeInsert").html(timeCount);
 function counter(){
-	        $(".timeInsert").html(timeCount);
+
 		timeCount -=1;
 		showTime = timeCount + " SECONDS";
 		$(".seconds").html(showTime);
